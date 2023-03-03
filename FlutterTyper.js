@@ -3,6 +3,7 @@ window.onload = function() {
 	flutterstyle.innerHTML = ".fluttertypertransparent{color: transparent;}";
 	document.body.appendChild(flutterstyle);
 	
+	// Spawns new instance of FlutterTyper with given parameters
 	new flutterTyper("IDofCursor", "IDofTextArea", 250, 100, 100, 50, 250, 1500, ["Message 1", "Message 2", "Message 3", "Etc..."]);
 }
 //
